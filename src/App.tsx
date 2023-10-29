@@ -20,7 +20,7 @@ export default function App() {
      const [name, setName] = React.useState("");
      const [desc, setDesc] = React.useState("");
 
-     const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+     const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
           setValue(newValue);
      };
 

@@ -13,7 +13,8 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 interface CampaignsTabsProps {
      subCampaigns: SUB_CAMPAIGNS[];
-     dispatch: React.Dispatch<unknown>;
+     // eslint-disable-next-line @typescript-eslint/no-explicit-any
+     dispatch: React.Dispatch<any>;
 }
 export default function CampaignsTabs({
      subCampaigns,
